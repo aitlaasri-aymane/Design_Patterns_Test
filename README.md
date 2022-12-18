@@ -2,13 +2,12 @@
 
 ## Diagramme de classe
 
-<img width="1127" alt="Screen Shot 2022-10-30 at 11 07 35 PM" src="https://user-images.githubusercontent.com/84875875/198903813-e717b52c-6ffd-43c4-af0c-6ce2a3508b50.png">
-
+<img width="1131" alt="Conception" src="https://user-images.githubusercontent.com/84875875/208300910-83183207-ce04-4d32-b740-be4407cf889d.png">
 
 ## Structure du projet
 
-<img width="350" alt="Screen Shot 2022-10-30 at 10 26 06 PM" src="https://user-images.githubusercontent.com/84875875/198902283-e8cd0660-7d9b-4924-a619-ca0209b3967f.png">
+<img width="349" alt="Screen Shot 2022-12-18 at 2 26 49 PM" src="https://user-images.githubusercontent.com/84875875/208300945-393f0b76-844c-46d8-86cf-a5d359a93f79.png">
 
 ## Test
 
-<img width="977" alt="Screen Shot 2022-10-30 at 10 26 48 PM" src="https://user-images.githubusercontent.com/84875875/198902302-c7d1c028-a7e3-4c41-b43b-4f0f7c045b81.png">
+<img width="1218" alt="Screen Shot 2022-12-18 at 2 23 27 PM" src="https://user-images.githubusercontent.com/84875875/208300954-8463e7c1-9999-4bd8-85e2-bb6ff2efbc10.png">
