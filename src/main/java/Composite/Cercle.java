@@ -22,5 +22,7 @@ public class Cercle extends Figure {
     @Override
     public void dessiner() {
         System.out.println(tabs()+"Cercle(centre.x="+centre.getX()+", centre.y="+centre.getY()+", rayon="+rayon+", "+super.toString()+")");
+        System.out.println(tabs()+"Permimetre : " + this.getPerimetre());
+        System.out.println(tabs()+"Surface : " + this.getSurface() +"\n");
     }
 }

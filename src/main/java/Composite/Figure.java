@@ -9,7 +9,7 @@ public abstract class Figure implements Serializable, Observer {
     protected int epaisseur;
     protected int couleurContour;
     protected int couleurRemplissage;
-    protected int niveau;
+    protected int niveau=0;
     public abstract double getSurface();
     public abstract double getPerimetre();
     public abstract void dessiner();
@@ -48,13 +48,20 @@ public abstract class Figure implements Serializable, Observer {
 
     @Override
     public void update(Parametrage parametrage) {
+        if(this.epaisseur != parametrage.getEpaisseurContour())
+            System.out.println("Observer => epaisseur has been changed to " + parametrage.getEpaisseurContour());
+        if(this.couleurContour != parametrage.getCouleurContour())
+            System.out.println("Observer => couleurContour has been changed to " + parametrage.getCouleurContour());
+        if(this.couleurRemplissage != parametrage.getCouleurRemplissage())
+            System.out.println("Observer => couleurRemplissage has been changed to " + parametrage.getCouleurRemplissage());
         this.epaisseur=parametrage.getEpaisseurContour();
         this.couleurContour=parametrage.getCouleurContour();
         this.couleurRemplissage=parametrage.getCouleurRemplissage();
     }
+
     protected String tabs(){
         String tabs="";
-        for (int i = 0; i <niveau ; i++) {
+        for (int i = 0; i < this.niveau ; i++) {
             tabs+="\t";
         }
         return tabs;

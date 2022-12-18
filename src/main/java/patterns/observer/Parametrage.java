@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Parametrage implements Observable {
-    private int epaisseurContour=1;
-    private int couleurContour=255;
-    private int couleurRemplissage=255;
+    private int epaisseurContour;
+    private int couleurContour;
+    private int couleurRemplissage;
     public List<Observer> observers=new ArrayList<>();
 
     @Override

@@ -25,5 +25,7 @@ public class Rectangle extends Figure {
     public void dessiner() {
         System.out.println(tabs()+"Rectangle(coin.x="+point.getX()+", coin.y="+point.getY()+", largeur="+largeur+
                 ", hauteur="+hauteur+", "+super.toString()+")");
+        System.out.println(tabs()+"Permimetre : " + this.getPerimetre());
+        System.out.println(tabs()+"Surface : " + this.getSurface()+"\n");
     }
 }
